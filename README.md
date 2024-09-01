@@ -1,1 +1,1 @@
-# Punto y Coma Software Landing Page  
+# Punto y Coma Labs Landing Page  

@@ -1,11 +1,19 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import { Button } from "@/components/ui/button";
+import Layout from "@/layouts/Layout.astro";
 ---
 
-<Layout title="Punto y Coma Software">
-	<main class="w-full min-h-dvh flex justify-center items-start">
-		hello world
-	</main>
-</Layout>
-
-
+<Layout title="#1 Software para tu Negocio - Pucolab">
+  <main
+    class="w-full max-w-screen-2xl min-h-dvh flex flex-col justify-start items-center"
+  >
+    <div class="py-20 flex flex-col gap-3">
+      <Button>Hola</Button>
+      <Button variant={"destructive"}>Hola</Button>
+      <Button variant={"ghost"}>Hola</Button>
+      <Button variant={"link"}>Hola</Button>
+      <Button variant={"outline"}>Hola</Button>
+      <Button variant={"secondary"}>Hola</Button>
+    </div>
+  </main>
+</Layout>s
